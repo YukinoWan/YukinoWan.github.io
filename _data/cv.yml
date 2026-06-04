@@ -1,0 +1,142 @@
+cv:
+  name: Zhen Wan
+  label: PhD Student · Kyoto University
+  email: zhenwan.nlp@gmail.com
+  location: Kyoto, Japan
+  image: ""
+  summary: >
+    PhD student in Informatics (Intelligence Science & Technology) at Kyoto
+    University and Research Intern at NVIDIA Research. Research on
+    voice agentic systems, multimodal LLMs, and low-resource Japanese NLP.
+
+  social_networks:
+    - network: GitHub
+      username: YukinoWan
+    - network: LinkedIn
+      username: zhen-wan
+
+  address:
+    street: ""
+    city: Kyoto
+    region: ""
+    postalCode: "606-8501"
+    countryCode: JP
+
+  sections:
+    Education:
+      - institution: Kyoto University
+        location: Kyoto, Japan
+        url: https://www.kyoto-u.ac.jp/
+        area: Informatics (Intelligence Science & Technology)
+        studyType: PhD Candidate
+        start_date: 2023-04
+        end_date: Present
+        highlights:
+          - Advised by Prof. Sadao Kurohashi and Prof. Chenhui Chu.
+          - JSPS Research Fellowship for Young Scientists (DC2).
+
+      - institution: Kyoto University
+        location: Kyoto, Japan
+        url: https://www.kyoto-u.ac.jp/
+        area: Informatics (Intelligence Science & Technology)
+        studyType: MS
+        start_date: 2021-04
+        end_date: 2023-03
+
+      - institution: Zhejiang University
+        location: Hangzhou, China
+        url: https://www.zju.edu.cn/
+        area: Energy Engineering
+        studyType: B.E.
+        start_date: 2014-09
+        end_date: 2018-09
+
+    Experience:
+      - company: NVIDIA Research
+        position: Research Intern
+        location: Remote, Japan
+        start_date: 2025-03
+        end_date: Present
+        summary: >
+          Working on NVIDIA's Omni models on the speech side — agentic ASR,
+          speech translation, TTS, and evaluation.
+        highlights:
+          - Developed a novel agent-based intelligence-quotient evaluation for speech LLMs and cascaded pipelines that outperforms existing metrics in aligning with human preference (SpeechIQ, ACL 2025 Main).
+          - Introduced a voice-agentic framework that teaches an omni-model when to trust itself versus when to consult external audio perception (Speech-Hands, ACL 2026 Oral).
+
+      - company: LLM-jp
+        position: Research Assistant
+        location: Japan
+        start_date: 2023-09
+        end_date: 2024-08
+        summary: >
+          Japanese instruction data via GPT-4 self-instruction and an
+          automatic evaluation benchmark for Japanese LLMs.
+        highlights:
+          - Co-led the ja-vicuna-qa-benchmark project.
+          - Co-first-authored LREC-COLING 2024 paper on rapid Japanese instruction data + benchmark construction.
+
+      - company: SIP — Cross-ministerial Strategic Innovation Promotion Program
+        position: Research Assistant
+        location: Japan
+        start_date: 2023-12
+        end_date: 2025-03
+        summary: >
+          Continually pre-trained general Japanese LLMs on Japanese medical
+          domain corpus and instruction-tuned on Japanese medical tasks.
+        highlights:
+          - Built the training framework + open tutorial for Megatron-LM parallel training on MDX Cloud.
+          - Two EMNLP 2025 papers (Main + Findings) on Japanese medical LLMs.
+
+      - company: Japan Society for the Promotion of Science (JSPS)
+        position: Research Fellow (DC2)
+        location: Japan
+        start_date: 2024-04
+        end_date: Present
+        summary: >
+          DC2 fellowship on Multi-document and Multi-modal Information
+          Extraction (acceptance rate 19.1%).
+
+      - company: Alibaba DAMO Academy
+        position: Research Intern
+        location: Hangzhou, China
+        start_date: 2023-05
+        end_date: 2023-10
+        summary: >
+          Data selection and training curriculum for continually
+          pre-training and instruction-tuning Chinese Legal LLMs.
+        highlights:
+          - Built a multi-step retrieval-augmented system for robust, updated legal QA.
+          - 1st-authored ACL 2024 Findings paper on Adapt-Retrieve-Revise for Chinese Legal LLMs.
+
+    Awards:
+      - title: ACL 2025 Best Industrial Paper Honor Mention
+        year: 2025
+        summary: For NeKo (4th author) — task-guided mixture-of-experts for cross-modality post-recognition error correction.
+
+      - title: JSPS Research Fellowship for Young Scientists (DC2)
+        year: 2024
+        summary: Acceptance rate 19.1%. Multi-document and Multi-modal Information Extraction.
+
+      - title: University Fellowship in Informatics, Kyoto University
+        year: 2023
+
+      - title: 3rd Prize, College Industrial Design Competition
+        year: 2017
+
+    Languages:
+      - language: Chinese
+        fluency: Native
+      - language: English
+        fluency: Fluent (TOEFL 100/120)
+      - language: Japanese
+        fluency: Conversational (JLPT N2)
+
+    Skills:
+      - category: Programming
+        items:
+          - Python · Bash · PyTorch
+          - Megatron-LM · DeepSpeed · LLaMA-Factory · Hugging Face
+      - category: Service
+        items:
+          - Reviewer for ACL, EMNLP, NAACL and ARR
